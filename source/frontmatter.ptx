@@ -15,18 +15,16 @@
     </author>
     <date>
       <today />
-    </date>git 
+    </date> 
 
     <website>
-      <url href="https://github.com/pearcej/ai4all">Repository on Github</url>
+      <url href="https://github.com/pearcej/ai4all">Repository on GitHub</url>
     </website>
 
     <copyright>
       <year>2026<ndash />present</year>
       <holder>Dr. Jan Pearce, Editor</holder>
-      <shortlicense> Except where otherwise noted, this work is licensed under the Creative Commons Non-Commercial Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0/"> CreativeCommons.org</url>. 
-	
-      </shortlicense>
+     <shortlicense>Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. To view a copy of this license, visit <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0/">creativecommons.org/licenses/by-nc-sa/4.0/</url>.</shortlicense>
     </copyright>
   
   </bibinfo>
@@ -45,11 +43,11 @@
     <title>How This Book Was Created</title>
 
     <p>
-        <booktitle>AI for All</booktitle> is the result of a collaborative effort involving faculty, students, and artificial intelligence. I, Jan Pearce, developed the overall vision for the textbook, established the learning objectives, organized the material, and provided both technical and editorial review. Student contributors researched topics, wrote draft sections, developed examples, identified resources, and reviewed the material throughout the writing process. During the development of this edition, the authors also used OpenAI's <q>ChatGPT</q>, based primarily on the GPT-5.5 model, as an editorial and creative assistant.
+        <pubtitle>AI for All</pubtitle> is the result of a collaborative effort involving faculty, students, and AI. The editor, Jan Pearce, developed the overall vision for the textbook, established the learning objectives, organized the material, and provided both technical and editorial review. Student contributors researched topics, wrote draft sections, developed examples, identified resources, and reviewed the material throughout the writing process. During the development of this edition, the authors also used OpenAI's <q>ChatGPT</q>, based primarily on the GPT-5.5 model, as an editorial and creative assistant.
     </p>
 
     <p>
-        ChatGPT assisted with a variety of tasks, including reviewing drafts for clarity and consistency, suggesting improvements to organization and pedagogy, identifying opportunities for additional explanation, proposing examples and exercises, generating original illustrations and diagrams, and helping maintain a consistent voice across chapters. Every AI-assisted contribution was carefully reviewed, revised, and approved by the human authors before being incorporated into the textbook. The faculty authors remain responsible for the accuracy, quality, and educational value of all content.
+        ChatGPT assisted with a variety of tasks, including reviewing drafts for clarity and consistency, suggesting improvements to organization and pedagogy, identifying opportunities for additional explanation, proposing examples and exercises, generating original illustrations and diagrams, and helping maintain a consistent voice across chapters. AI systems occasionally produce incorrect or misleading information. For this reason, all AI-generated content was treated as a draft requiring human review rather than as an authoritative source. The faculty editor remains responsible for the accuracy, quality, and educational value of all content.
     </p>
 
     <p>
@@ -57,7 +55,7 @@
     </p>
 
     <p>
-        Unless otherwise noted, all original text, illustrations, and other materials in this textbook are distributed under the same Creative Commons Attribution NonCommercial 4.0 International License as the textbook itself.
+        Unless otherwise noted, all original text, illustrations, and other materials in this textbook are distributed under the same Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License as the textbook itself.
     </p>
 </preface>
 	<preface xml:id="acknowledgements">
@@ -68,28 +66,30 @@ Undergrads</em>. Any opinions, findings, and conclusions or recommendations expr
     </p>
 
    <p>
-      I would like to thank <url href="https://www.berea.edu" visual="www.berea.edu">Berea College</url> for the support for student internships and for the Berea College students:</p>
+      I would like to thank <url href="https://www.berea.edu" visual="www.berea.edu">Berea College</url> for its support for student internships and for the Berea College students:</p>
       <p> 
       <ul>
-      <li>Magnus McCaslin, team lead</li>
+      <li>Magnus McCaslin (Team Lead)</li>
       <li>Hope Michael</li>
       <li>Din Din Par</li>
       <li>Aaron Whitaker</li>
       </ul>
       </p>
-       <p>You can see their contibutions as well as those of others at <url href="https://github.com/pearcej/ai4all/forks">github.com/pearcej/ai4all/forks</url>.
+       <p>You can see their contributions as well as those of others at <url href="https://github.com/pearcej/ai4all/forks">github.com/pearcej/ai4all/forks</url>.
     </p>
 
-    <p><xref ref="sec-ai-backstory"/>  was developed using several publicly available resources. The historical overview draws upon <url href="https://nij.ojp.gov/topics/articles/brief-history-artificial-intelligence">A Brief History of Artificial Intelligence</url>, published by the National Institute of Justice (NIJ). As a publication of the United States federal government, this work is in the public domain under 17 U.S.C. § 105 and may be freely reused and adapted, making it fully compatible with the Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) license under which this textbook is distributed. This section was also informed by <url href="https://infobooks.org/pdfview/introduction-to-artificial-intelligence-microsoft-and-wttc-842/">Introduction to Artificial Intelligence</url>, authored by Microsoft and the World Travel &amp; Tourism Council (WTTC). The original publication includes a copyright notice that permits redistribution under specified conditions but requires that the content not be amended. Accordingly, this textbook uses the publication as a reference for background information and organization rather than adapting or modifying its copyrighted text. The original work therefore remains under its own licensing terms, while the original text written for this textbook is distributed under the Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) license.</p>
+    <p><xref ref="sec-ai-backstory"/> was developed using public domain and openly licensed resources. The historical overview draws upon <url href="https://nij.ojp.gov/topics/articles/brief-history-artificial-intelligence">A Brief History of Artificial Intelligence</url>, published by the National Institute of Justice (NIJ). As a publication of the United States federal government, this work is in the public domain under 17 U.S.C. § 105 and may be freely reused and adapted, making it fully compatible with the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license under which this textbook is distributed. This section was also informed by <url href="https://infobooks.org/pdfview/introduction-to-artificial-intelligence-microsoft-and-wttc-842/">Introduction to Artificial Intelligence</url>, authored by Microsoft and the World Travel &amp; Tourism Council (WTTC). The original publication includes a copyright notice that permits redistribution under specified conditions but requires that the content not be amended. Accordingly, this textbook uses the publication as a reference for background information and organization rather than adapting or modifying its copyrighted text. The original work therefore remains under its own licensing terms, while the original text for this textbook is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.</p>
+
+  <p><xref ref="sec-characterizing-intelligence"/> was developed using several openly licensed educational resources. Portions of this section were adapted from <url href="https://milnepublishing.geneseo.edu/future-is-now/chapter/understanding-artificial-intelligence/">Understanding Artificial Intelligence</url>, by Jason S. Wrench and Sanae Elmoudden, published by Milne Open Textbooks, and from <url href="https://alliedmedia.org/wp-content/uploads/2020/09/peoples-guide-ai.pdf">A People's Guide to AI</url>, by Mimi Onuoha and Diana Nucera. Additional inspiration was drawn from <url href="https://www.csfieldguide.org.nz/en/chapters/artificial-intelligence/chatterbots-and-the-turing-test/">Chatterbots and the Turing Test</url>, published by the Computer Science Field Guide (CSFG). <em>Understanding Artificial Intelligence</em> and <em>A People's Guide to AI</em> are licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0) license and permit adaptation with attribution. The material incorporated into this textbook has been revised, reorganized, and expanded to fit its learning objectives, terminology, and style. The original sources remain under their respective licenses, while the original text written for this textbook is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.</p>
 
 <!-- add more acknowlegements here-->
 
-    <p>
-      I would like to thank Rob Beezer for the creation of <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url> which is the authoring platform of this text and for his amazing level of responsiveness in the PreTeXt support channel. Additionally, I am very grateful to Oscar Levin both for his responsiveness in the Runestone Discord channels and for work in the creation of PreText converter for <url href="https://pandoc.org/" visual="pandoc.org">Pandoc</url> which made adaption much less time consuming.
+    <p> This book was authored in <pretext />.
+      Hence, I would like to thank Rob Beezer for the creation of <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url>  and for his responsiveness in the PreTeXt support channels. Additionally, I am very grateful to Oscar Levin both for his responsiveness in the Runestone Discord channels and for work in the creation of PreText converter for <url href="https://pandoc.org/" visual="pandoc.org">Pandoc</url> which made adaptation of some materials much less time consuming.
       </p>
 
       <p>
-      Brad Miller deserves a hearty thanks for his work in creating <url href="https://runestone.academy/" visual="runestone.academy">Runestone Academy</url> where this book is hosted, and for his collaborative work with the <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url> authoring group.
+      Brad Miller deserves a special thanks for his work in creating <url href="https://runestone.academy/" visual="runestone.academy">Runestone Academy</url> where this book is hosted, for his collaborative work with the <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url> authoring group, as well as for his responsiveness in the Runestone Discord channels. 
     </p>
     <p>
       Finally, I would like to thank my husband, Bob Fairchild, for his patience and for being my best friend.
@@ -98,9 +98,9 @@ Undergrads</em>. Any opinions, findings, and conclusions or recommendations expr
 
 
 
-  <note>
-    <p> This book was authored in <pretext />. </p>
-</note>
+
+    
+
 
 
 				</preface>
