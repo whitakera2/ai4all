@@ -8,8 +8,33 @@
   </introduction>
 
   <!-- include sections -->
-  <section xml:id="sec-the-future-of-ai-change-this">
-    <title>The Future of AI</title>
+  <section xml:id="sec-algorithmic-bias-and-echo-chambers">
+    <title>Algorithmic Bias and Echo Chambers</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-the-black-box-problem">
+    <title>The Black Box Problem</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-environmental-impacts">
+    <title>Environmental Impacts</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-deepfakes-and-disinformation">
+    <title>Deepfakes and Disinformation</title>
+    <p>Content for the section.</p>
+  </section>
+
+  <section xml:id="sec-copyright-intellectual-property-and-the-creative-economy">
+    <title>Copyright, Intellectual Property, and the Creative Economy</title>
+    <p>Content for the section.</p>
+  </section> 
+
+  <section xml:id="sec-ai-as-a-disruptor-in-the-workforce">
+    <title>AI as a Disruptor in the Workforce</title>
     <p>Content for the section.</p>
   </section>
 
