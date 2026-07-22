@@ -20,7 +20,82 @@
 
   <section xml:id="sec-ai-powered-study-buddy">
     <title>AI-Powered Study Buddy</title>
-    <p>Content for the section.</p>
+
+    <introduction>
+        <p>
+            Generative AI tools can be incredibly effective when reframed as
+            an active learning tool. Educational research on AI
+            implementation reveals that students who use AI to interactively
+            challenge and refine their own ideas instead of just generating
+            quick answers show significantly higher engagement and
+            retention. The findings indicate that the dividing line between
+            accelerated learning and intellectual dependency depends almost
+            entirely on who is doing the heavy lifting during the
+            interaction. When the interaction is well structured, an
+            <q>AI Study Buddy</q> supports cognitive independence rather
+            than replacing it by acting as a personalized, on-demand tutor.
+        </p>
+    </introduction>
+
+    <subsection xml:id="ssec-strategies-for-effective-ai-interaction">
+        <title>Strategies for Effective AI Interaction</title>
+        <p>
+            To successfully protect your learning process and maximize
+            academic growth, you should actively direct your AI
+            interactions using three targeted strategies.
+        </p>
+
+        <paragraphs xml:id="par-brainstorming-and-idea-generation">
+            <title>Brainstorming and Idea Generation</title>
+            <p>
+                When you get stuck or are starting a new project, utilize AI
+                as a collaborative partner to generate diverse angles, list
+                potential arguments, or suggest topics. Rather than copying
+                the output, use the responses as a baseline to kickstart
+                your own creative process, and get past the tough spot
+                without outsourcing the actual composition.
+            </p>
+        </paragraphs>
+
+        <paragraphs xml:id="par-concept-explanation">
+            <title>Concept Explanation</title>
+            <p>
+                If a textbook definition or lecture slide feels confusing and
+                you're having trouble understanding the concept, instruct
+                the AI to explain the concept using an analogy, break it
+                down into simpler terms, or provide real world examples.
+                You can maximize this by telling the AI to adopt a specific
+                persona&#8212;such as a patient tutor or a domain
+                expert&#8212;allowing you to personalize the depth and
+                style of the explanation to better fit individual learning
+                needs.
+            </p>
+        </paragraphs>
+
+        <paragraphs xml:id="par-practice-and-self-testing">
+            <title>Practice and Self-Testing</title>
+            <p>
+                Use AI to organize thoughts or synthesize large volumes of
+                information. Prompting it to generate practice questions,
+                test you on key concepts, or break down dense text into
+                simple analogies is a powerful way to deepen your
+                comprehension.
+            </p>
+        </paragraphs>
+
+        <p>
+            Ultimately, using AI to augment rather than replace critical
+            thinking keeps you as a primary author and thinker in your
+            education. Shifting your approach from asking AI for answers to
+            asking it for guidance, explanations, and targeted practice
+            keeps you in control of your education. While AI isn't needed
+            to succeed, using these strategies to use it effectively can
+            help elevate your learning and save a lot of time on studying.
+            To put these interactive workflows into practice,
+            <xref ref="sec-the-anatomy-of-a-prompt-and-writing-loops"/>
+            details how to better form AI prompts to get the best results.
+        </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-the-anatomy-of-a-prompt-and-writing-loops">
