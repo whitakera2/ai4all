@@ -10,7 +10,113 @@
   <!-- include sections -->
   <section xml:id="sec-the-dangers-of-ai-as-a-learner">
     <title>The Dangers of AI as a Learner</title>
-    <p>Content for the section.</p>
+
+    <introduction>
+      <p>
+          The rapid emergence of generative AI tools like OpenAI's ChatGPT has
+          fundamentally shifted how students approach learning, presenting a
+          critical tension between short-term task completion and long-term
+          skill acquisition. While early discussions around generative AI have
+          heavily celebrated its ability to boost immediate productivity and
+          efficiency on knowledge-intensive tasks, a profound concern centers
+          on how these tools affect how humans learn novel skills and maintain
+          cognitive independence.
+      </p>
+
+      <p>
+          The core danger is that generative AI tools are highly optimized to
+          automate output, which frequently encourages a shift from active
+          learning to passive task completion. When a student uses AI to
+          bypass the underlying mental effort of an assignment, they
+          experience a form of
+          <term>cognitive surrender</term><idx><h>cognitive surrender</h></idx>,
+          the act of outsourcing one's critical thinking to an external source
+          and bypassing the mental work of learning. While the technology
+          allows users to navigate information quickly, relying on it to
+          generate immediate answers removes the necessary cognitive
+          investment required to build durable human expertise.
+      </p>
+    </introduction>
+
+    <subsection xml:id="ssec-evidence-from-mathematics-learning">
+        <title>Evidence from Mathematics Learning</title>
+      <p>
+          To establish how much students' learning processes have shifted in
+          response to generative AI, and how that affects their durable
+          learning outcomes, a longitudinal study analyzed 3.2 million
+          mathematics learning interactions over a decade. The results showed
+          that after ChatGPT was released, high school and college students
+          cut their learning time on AI-susceptible problems by 31.3% and
+          26.9% over nearly three years.
+      </p>
+
+      <p>
+          However, this came at a cost; while unsupervised assignments showed
+          an increase in correct answers, supervised evaluations yielded a
+          staggering 25% cumulative decline in the odds of a student giving a
+          correct response. This study highlights that when students use
+          generative AI as an unchecked shortcut to complete assignments
+          faster, they skip the active cognitive engagement at study time that
+          produces deeper understanding, higher mastery, and more durable
+          retention.
+      </p>
+    </subsection>
+
+     <subsection xml:id="ssec-decreased-cognitive-engagement">
+        <title>Decreased Cognitive Engagement</title>
+
+        <p>
+            Beyond immediate performance drops, routine utilization
+            fundamentally recalibrates a student's underlying intellectual
+            traits. A separate empirical study investigated how students'
+            trust in and routine use of generative AI affect their
+            cognitive engagement habits, specifically reflection, the need
+            for understanding, and critical thinking in coursework. The
+            study found that students who regularly depended on generative
+            AI reported significantly lower cognitive engagement, and
+            students with higher enthusiasm for technology, risk tolerance,
+            and <term>computer self-efficacy</term><idx><h>computer self-efficacy</h></idx>&#8212;traits
+            often celebrated and encouraged in STEM&#8212;were actually more
+            prone to these effects. Prior experience with AI or academia
+            offered no protection.
+        </p>
+
+        <assemblage xml:id="asm-look-closer-cognitive-debt-cycle">
+            <title>Look Closer...</title>
+
+            <p>
+                <em>
+                    This reveals a dangerous
+                    <term>cognitive debt cycle</term><idx><h>cognitive debt cycle</h></idx>
+                    where routine reliance systematically weakens a
+                    student's intellectual habits. Over time, trust-driven
+                    AI use can build a general unwillingness to engage in
+                    reflection and critical thinking, fundamentally
+                    resetting a student's baseline for what cognitive
+                    effort feels <q>worth it.</q>
+                </em>
+            </p>
+        </assemblage>
+    </subsection>
+
+    <subsection xml:id="ssec-breaking-the-cycle">
+        <title>Breaking the Cycle</title>
+      <p>
+          Ultimately, independent critical thinking and human judgment are not
+          capabilities that can be safely outsourced to AI without causing
+          long-term intellectual atrophy. To break this potential debt cycle,
+          learners must intentionally shift away from treating AI as an
+          engine for fast answers and instead adopt it as a collaborative tool
+          for deeper comprehension. Processing ideas with your own mind,
+          making independent judgments, and working alongside peers remain
+          non-negotiable elements of true mastery. To explore how to strike
+          this balance successfully,
+          <xref ref="sec-ai-powered-study-buddy"/> details how to responsibly
+          repurpose these tools as an <q>AI-Powered Study Buddy</q>&#8212;focusing
+          on how to use AI to brainstorm, explain, or map out different
+          concepts without sacrificing your own cognitive independence.
+      </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-the-power-of-being-wrong">
