@@ -10,7 +10,113 @@
   <!-- include sections -->
   <section xml:id="sec-the-dangers-of-ai-as-a-learner">
     <title>The Dangers of AI as a Learner</title>
-    <p>Content for the section.</p>
+
+    <introduction>
+      <p>
+          The rapid emergence of generative AI tools like OpenAI's ChatGPT has
+          fundamentally shifted how students approach learning, presenting a
+          critical tension between short-term task completion and long-term
+          skill acquisition. While early discussions around generative AI have
+          heavily celebrated its ability to boost immediate productivity and
+          efficiency on knowledge-intensive tasks, a profound concern centers
+          on how these tools affect how humans learn novel skills and maintain
+          cognitive independence.
+      </p>
+
+      <p>
+          The core danger is that generative AI tools are highly optimized to
+          automate output, which frequently encourages a shift from active
+          learning to passive task completion. When a student uses AI to
+          bypass the underlying mental effort of an assignment, they
+          experience a form of
+          <term>cognitive surrender</term><idx><h>cognitive surrender</h></idx>,
+          the act of outsourcing one's critical thinking to an external source
+          and bypassing the mental work of learning. While the technology
+          allows users to navigate information quickly, relying on it to
+          generate immediate answers removes the necessary cognitive
+          investment required to build durable human expertise.
+      </p>
+    </introduction>
+
+    <subsection xml:id="ssec-evidence-from-mathematics-learning">
+        <title>Evidence from Mathematics Learning</title>
+      <p>
+          To establish how much students' learning processes have shifted in
+          response to generative AI, and how that affects their durable
+          learning outcomes, a longitudinal study analyzed 3.2 million
+          mathematics learning interactions over a decade. The results showed
+          that after ChatGPT was released, high school and college students
+          cut their learning time on AI-susceptible problems by 31.3% and
+          26.9% over nearly three years.
+      </p>
+
+      <p>
+          However, this came at a cost; while unsupervised assignments showed
+          an increase in correct answers, supervised evaluations yielded a
+          staggering 25% cumulative decline in the odds of a student giving a
+          correct response. This study highlights that when students use
+          generative AI as an unchecked shortcut to complete assignments
+          faster, they skip the active cognitive engagement at study time that
+          produces deeper understanding, higher mastery, and more durable
+          retention.
+      </p>
+    </subsection>
+
+     <subsection xml:id="ssec-decreased-cognitive-engagement">
+        <title>Decreased Cognitive Engagement</title>
+
+        <p>
+            Beyond immediate performance drops, routine utilization
+            fundamentally recalibrates a student's underlying intellectual
+            traits. A separate empirical study investigated how students'
+            trust in and routine use of generative AI affect their
+            cognitive engagement habits, specifically reflection, the need
+            for understanding, and critical thinking in coursework. The
+            study found that students who regularly depended on generative
+            AI reported significantly lower cognitive engagement, and
+            students with higher enthusiasm for technology, risk tolerance,
+            and <term>computer self-efficacy</term><idx><h>computer self-efficacy</h></idx>&#8212;traits
+            often celebrated and encouraged in STEM&#8212;were actually more
+            prone to these effects. Prior experience with AI or academia
+            offered no protection.
+        </p>
+
+        <assemblage xml:id="asm-look-closer-cognitive-debt-cycle">
+            <title>Look Closer...</title>
+
+            <p>
+                <em>
+                    This reveals a dangerous
+                    <term>cognitive debt cycle</term><idx><h>cognitive debt cycle</h></idx>
+                    where routine reliance systematically weakens a
+                    student's intellectual habits. Over time, trust-driven
+                    AI use can build a general unwillingness to engage in
+                    reflection and critical thinking, fundamentally
+                    resetting a student's baseline for what cognitive
+                    effort feels <q>worth it.</q>
+                </em>
+            </p>
+        </assemblage>
+    </subsection>
+
+    <subsection xml:id="ssec-breaking-the-cycle">
+        <title>Breaking the Cycle</title>
+      <p>
+          Ultimately, independent critical thinking and human judgment are not
+          capabilities that can be safely outsourced to AI without causing
+          long-term intellectual atrophy. To break this potential debt cycle,
+          learners must intentionally shift away from treating AI as an
+          engine for fast answers and instead adopt it as a collaborative tool
+          for deeper comprehension. Processing ideas with your own mind,
+          making independent judgments, and working alongside peers remain
+          non-negotiable elements of true mastery. To explore how to strike
+          this balance successfully,
+          <xref ref="sec-ai-powered-study-buddy"/> details how to responsibly
+          repurpose these tools as an <q>AI-Powered Study Buddy</q>&#8212;focusing
+          on how to use AI to brainstorm, explain, or map out different
+          concepts without sacrificing your own cognitive independence.
+      </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-the-power-of-being-wrong">
@@ -20,12 +126,312 @@
 
   <section xml:id="sec-ai-powered-study-buddy">
     <title>AI-Powered Study Buddy</title>
-    <p>Content for the section.</p>
+
+    <introduction>
+        <p>
+            Generative AI tools can be incredibly effective when reframed as
+            an active learning tool. Educational research on AI
+            implementation reveals that students who use AI to interactively
+            challenge and refine their own ideas instead of just generating
+            quick answers show significantly higher engagement and
+            retention. The findings indicate that the dividing line between
+            accelerated learning and intellectual dependency depends almost
+            entirely on who is doing the heavy lifting during the
+            interaction. When the interaction is well structured, an
+            <q>AI Study Buddy</q> supports cognitive independence rather
+            than replacing it by acting as a personalized, on-demand tutor.
+        </p>
+    </introduction>
+
+    <subsection xml:id="ssec-strategies-for-effective-ai-interaction">
+        <title>Strategies for Effective AI Interaction</title>
+        <p>
+            To successfully protect your learning process and maximize
+            academic growth, you should actively direct your AI
+            interactions using three targeted strategies.
+        </p>
+
+        <paragraphs xml:id="par-brainstorming-and-idea-generation">
+            <title>Brainstorming and Idea Generation</title>
+            <p>
+                When you get stuck or are starting a new project, utilize AI
+                as a collaborative partner to generate diverse angles, list
+                potential arguments, or suggest topics. Rather than copying
+                the output, use the responses as a baseline to kickstart
+                your own creative process, and get past the tough spot
+                without outsourcing the actual composition.
+            </p>
+        </paragraphs>
+
+        <paragraphs xml:id="par-concept-explanation">
+            <title>Concept Explanation</title>
+            <p>
+                If a textbook definition or lecture slide feels confusing and
+                you're having trouble understanding the concept, instruct
+                the AI to explain the concept using an analogy, break it
+                down into simpler terms, or provide real world examples.
+                You can maximize this by telling the AI to adopt a specific
+                persona&#8212;such as a patient tutor or a domain
+                expert&#8212;allowing you to personalize the depth and
+                style of the explanation to better fit individual learning
+                needs.
+            </p>
+        </paragraphs>
+
+        <paragraphs xml:id="par-practice-and-self-testing">
+            <title>Practice and Self-Testing</title>
+            <p>
+                Use AI to organize thoughts or synthesize large volumes of
+                information. Prompting it to generate practice questions,
+                test you on key concepts, or break down dense text into
+                simple analogies is a powerful way to deepen your
+                comprehension.
+            </p>
+        </paragraphs>
+
+        <p>
+            Ultimately, using AI to augment rather than replace critical
+            thinking keeps you as a primary author and thinker in your
+            education. Shifting your approach from asking AI for answers to
+            asking it for guidance, explanations, and targeted practice
+            keeps you in control of your education. While AI isn't needed
+            to succeed, using these strategies to use it effectively can
+            help elevate your learning and save a lot of time on studying.
+            To put these interactive workflows into practice,
+            <xref ref="sec-the-anatomy-of-a-prompt-and-writing-loops"/>
+            details how to better form AI prompts to get the best results.
+        </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-the-anatomy-of-a-prompt-and-writing-loops">
     <title>The Anatomy of a Prompt and Writing Loops</title>
-    <p>Content for the section.</p>
+
+    <introduction>
+        <p>
+            In the context of <term>large language models</term> (<term>LLMs</term>)<idx><h>large language model</h></idx><idx><h>LLM</h></idx>—artificial intelligence systems designed to understand and generate human-like text—<term>prompting</term><idx><h>prompting</h></idx> refers to the method of providing an LLM with a specific input or cue to generate a desired output or perform a task. Prompting is crucial because it directly influences how effectively these models understand and respond to user queries. A well-crafted prompt can guide an LLM to generate more accurate, relevant, and contextually appropriate responses.
+        </p>
+
+        <p>
+            A prompt can be constructed using a <term>prompt template</term><idx><h>prompt template</h></idx>, which is a segment of text containing placeholders or variables that are filled with specific information depending on the context. Consider a template with a single placeholder:
+        </p>
+
+        <assemblage xml:id="asm-basic-prompt-template">
+            <title>Basic Prompt Template Example</title>
+            <p>
+                If <c>{premise}</c>, what are your suggestions for a fun weekend?
+            </p>
+        </assemblage>
+
+        <p>
+            The variable <c>{premise}</c> is specified by the user to set the context for the model's recommendations. For instance, if the input is <q>the weather is nice this weekend,</q> the final prompt becomes: <q>If the weather is nice this weekend, what are your suggestions for a fun weekend?</q>
+        </p>
+
+        <p>
+            When a problem is difficult to describe purely through specific variables, it is common to provide the LLM with a detailed instruction set or context. One effective strategy is to assign a persona or role to the model.
+        </p>
+
+        <assemblage xml:id="asm-persona-prompt-template">
+            <title>Persona-Based Prompt Template</title>
+            <p>
+                You are a computer scientist with extensive knowledge in the field of deep learning. Please explain the following computer-related concept to a child around 10 years old, using simple examples whenever possible: <c>{concept}</c>
+            </p>
+        </assemblage>
+    </introduction>
+
+    <subsection xml:id="ssec-in-context-learning">
+        <title>In-Context Learning</title>
+
+        <p>
+            An essential concept in prompt engineering is <term>in-context learning</term><idx><h>in-context learning</h></idx>. When prompting an LLM, users can include new information outside the model's static training data—such as step-by-step demonstrations—allowing the LLM to learn how to perform a task within that specific conversation.
+        </p>
+
+        <p>
+            For example, an LLM can be provided with a few demonstrations of how to perform text classification:
+        </p>
+
+        <assemblage xml:id="asm-demonstration-prompt">
+            <title>In-Context Demonstration Example</title>
+            <p>
+                Here are some examples of text classification.
+            </p>
+            <p>
+                Example 1: We had a delightful dinner together. <m>\rightarrow</m> Label: Positive.
+            </p>
+            <p>
+                Example 2: I'm frustrated with the delays. <m>\rightarrow</m> Label: Negative.
+            </p>
+            <p>
+                What is the label for <q>That comment was quite hurtful.</q>?
+            </p>
+            <p>
+                Label:
+            </p>
+        </assemblage>
+
+        <p>
+            In-context learning is typically characterized by the number of examples provided prior to the target query:
+        </p>
+
+        <p>
+            <term>Zero-shot learning</term><idx><h>zero-shot learning</h></idx> does not involve providing any concrete examples of solved tasks. Instead, it directly prompts the LLM to address a problem using its baseline training.
+        </p>
+
+        <assemblage xml:id="asm-zero-shot-prompt">
+            <title>Zero-Shot Grammar Prompt</title>
+            <p>
+                You are a helpful assistant, and are great at grammar correction. You will be provided with a sentence in English. The task is to output the correct sentence.
+            </p>
+            <p>
+                Input: She don't like going to the park.
+            </p>
+            <p>
+                Output:
+            </p>
+        </assemblage>
+
+        <p>
+            <term>One-shot learning</term><idx><h>one-shot learning</h></idx> expands on this approach by supplying a single demonstration of the desired task, allowing the model to learn from the provided example:
+        </p>
+
+        <assemblage xml:id="asm-one-shot-prompt">
+            <title>One-Shot Grammar Prompt</title>
+            <p>
+                You are a helpful assistant, and are great at grammar correction. You will be provided with a sentence in English. The task is to output the correct sentence.
+            </p>
+            <p>
+                Input: There is many reasons to celebrate.
+            </p>
+            <p>
+                Output: There are many reasons to celebrate.
+            </p>
+            <p>
+                Input: She don't like going to the park.
+            </p>
+            <p>
+                Output:
+            </p>
+        </assemblage>
+
+        <p>
+            <term>Few-shot learning</term><idx><h>few-shot learning</h></idx> provides multiple demonstrations to establish a clear pattern mapping inputs to outputs, which the model follows to generate its prediction:
+        </p>
+
+        <assemblage xml:id="asm-few-shot-prompt">
+            <title>Few-Shot Grammar Prompt</title>
+            <p>
+                You are a helpful assistant, and are great at grammar correction. You will be provided with a sentence in English. The task is to output the correct sentence.
+            </p>
+            <p>
+                Input: There is many reasons to celebrate.
+            </p>
+            <p>
+                Output: There are many reasons to celebrate.
+            </p>
+            <p>
+                Input: Me and my friend goes to the gym every day.
+            </p>
+            <p>
+                Output: My friend and I go to the gym every day.
+            </p>
+            <p>
+                Input: She don't like going to the park.
+            </p>
+            <p>
+                Output:
+            </p>
+        </assemblage>
+    </subsection>
+
+    <subsection xml:id="ssec-writing-good-prompts">
+        <title>Strategies for Effective Prompts</title>
+
+        <p>
+            Writing effective prompts involves strategic structure and clarity. Key techniques include:
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <term>Clarity and Precision</term>: Providing a precise, specific description of the task ensures the model remains aligned with expectations.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Step-by-Step Reasoning</term>: Instructing LLMs to reason through a problem step-by-step improves performance on complex logic tasks.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Reference Context</term>: Supplying authoritative source text and instructing the model to rely exclusively on that reference helps prevent ungrounded predictions.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Formatting Sensitivity</term>: Modifying structural layout or punctuation can significantly impact the model's output consistency.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            To bypass manual trial-and-error, LLMs can be used to automate prompt creation through <term>discrete prompt optimization</term><idx><h>discrete prompt optimization</h></idx>. By instructing the LLM to act as a prompt engineer, the model can iteratively rewrite, expand, and refine instructions.
+        </p>
+
+        <assemblage xml:id="asm-automated-prompt-design">
+            <title>Automated Prompt Generation Template</title>
+            <p>
+                You are given a task to complete using LLMs. Please write a prompt to guide the LLMs. <c>{task-description}</c>
+            </p>
+        </assemblage>
+
+        <p>
+            To improve reliability on complex operations, tasks can be divided into smaller components. In <term>prompt chaining</term><idx><h>prompt chaining</h></idx>, the output of one prompt serves directly as the input for the next, building a sequence of specialized operations to accomplish a multi-step task.
+        </p>
+    </subsection>
+
+    <subsection xml:id="ssec-human-ai-writing-loops">
+        <title>Human-AI Writing Loops</title>
+
+        <p>
+            In practice, combining structured prompt design with interactive workflows creates an effective <term>human-AI writing loop</term><idx><h>human-AI writing loop</h></idx>. This process demonstrates how an LLM functions as an active collaborator rather than a single-use tool:
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <term>Preparation &amp; Brainstorming</term>: Begin by gathering research and developing an outline. Prompt the AI to brainstorm alternative approaches aligned with that outline.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Drafting</term>: Combine primary knowledge with selected AI ideas to author an initial draft.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Critique &amp; Verification</term>: Ask the AI for detailed feedback and critique on the draft. Evaluate its suggestions critically, verifying all cited facts and claims manually.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Revision &amp; Polishing</term>: Revise the content and use target prompts to refine sentence mechanics, punctuation, and style.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Attribution &amp; Voice Check</term>: Ensure that the final text reflects your distinct voice, accurate reasoning, and includes proper attribution of AI involvement throughout the writing process.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+            Relying on iterative workflows allows writers to maintain control and precision, identify errors early, and ensure that final artifacts remain original and aligned with primary learning goals.
+        </p>
+    </subsection>
   </section>
   
   <section xml:id="sec-spotting-hallucinations">
