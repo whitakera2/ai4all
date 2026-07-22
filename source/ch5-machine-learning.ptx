@@ -15,7 +15,102 @@
 
   <section xml:id="sec-supervised-learning">
     <title>Supervised Learning</title>
-    <p>Content for the section.</p>
+
+    <introduction xml:id="intro-supervised-learning">
+        <p>
+            <term>Supervised learning</term><idx><h>supervised learning</h></idx> is a type of machine learning 
+            in which the learning system is provided with example inputs that are paired with their desired outputs. 
+            In this setup, the algorithm is given training data and explicitly told which specific labels or target 
+            values should be associated with each input.
+        </p>
+
+        <p>
+            By comparing its predicted output with the true output, the algorithm measures its error, learns from its 
+            mistakes, and modifies the underlying model accordingly. The primary goal of supervised learning is to 
+            learn underlying patterns from labeled data so that the model can accurately predict the labels or values 
+            of new, previously unseen data.
+        </p>
+
+        <p>
+        Because the correct target is required for every training example, supervised learning relies heavily on 
+        <term>labeled data</term><idx>labeled data</idx>, which is often annotated by human experts or domain specialist systems.
+        </p>
+    
+        <assemblage xml:id="asm-look-closer-supervised-learning">
+          <title>Look Closer..</title>
+            <p><em>
+                Why is it called "supervised" learning? Think of the algorithm as a student studying with flashcards. 
+                The front of the card has the input (such as an image or a set of measurements), and the back has the 
+                correct answer (the label). The "supervisor" or teacher provides the correct answers during training so 
+                the student can check its work, adjust its understanding, and prepare to take a test on brand-new 
+                questions it has never seen before.
+            </em></p>
+        </assemblage>
+    </introduction>
+
+    <subsection xml:id="subsec-supervised-categories">
+        <title>Categories of Supervised Learning</title>
+
+        <p>
+            Supervised learning problems are generally divided into two main categories based on the type of output 
+            being predicted:
+        </p>
+
+        <p>
+            <dl>
+                <li>
+                    <title><term>Classification</term></title>
+                    <p>
+                        Classification algorithms predict a label or category from a finite set of discrete values. 
+                        Classification problems may be <term>binary classification</term><idx>binary classification</idx>, 
+                        where there are only two possible classes (such as "spam" or "not spam"), or 
+                        <term>multi-class classification</term><idx>multi-class classification</idx>, featuring three or more 
+                        possible categories. During training, the model learns from paired inputs and labels—for instance, 
+                        an algorithm might learn from images of sharks labeled as "fish" alongside images of oceans labeled as "water." 
+                        After training, the model should correctly categorize new, unlabeled images.
+                    </p>
+                </li>
+                <li>
+                    <title><term>Regression</term></title>
+                    <p>
+                        Regression algorithms are structured similarly to classification models, except that they predict 
+                        continuous numerical values rather than discrete categories. Like classification, regression algorithms 
+                        learn from pairs of input data and corresponding target values. Regression is commonly applied when 
+                        the goal is to predict measurements, prices, temperatures, or other continuous quantities.
+                    </p>
+                </li>
+            </dl>
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-supervised-applications">
+        <title>Applications of Supervised Learning</title>
+
+        <p>
+            Supervised learning is widely used across technology to predict statistically likely future events from historical data. 
+            Common applications include:
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Analyzing historical stock market information to anticipate future value fluctuations.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Evaluating email features to automatically identify and filter spam from an inbox.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Classifying unlabeled photos or diagnostic medical scans after training on curated, labeled sets of images.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-unsupervised-learning">
