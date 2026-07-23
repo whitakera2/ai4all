@@ -16,6 +16,162 @@
   <section xml:id="sec-reading-the-distribution">
     <title>Reading the Distribution</title>
     <p>Content for the section.</p>
+    <figure xml:id="fig-42-pie-chart">
+    <caption>
+        Pie chart of iMac purchases illustrating frequencies of previous computer ownership.
+    </caption>
+
+    <image source="4.2-pie-chart.png">
+        <shortdescription>
+            Pie chart showing iMac buyers' previous computer ownership: Macintosh 71%, None 17%, and Windows 12%.
+        </shortdescription>
+
+        <description>
+            <p>
+                A standard circular pie chart divided into three slices showing previous computer ownership among iMac buyers. The largest slice represents previous Macintosh owners at 71%, followed by buyers who previously owned no computer at 17%, and former Windows users making up the smallest slice at 12%.
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-simple-bar-graph">
+    <caption>
+        Bar chart of iMac purchases as a function of previous computer ownership.
+    </caption>
+
+    <image source="4.2-simple-bar-graph.png">
+        <shortdescription>
+            Bar chart of iMac buyers by previous computer owned: Macintosh 355, None 85, and Windows 60.
+        </shortdescription>
+
+        <description>
+            <p>
+                A vertical bar chart displaying the frequency of iMac purchases based on previous computer ownership. The horizontal axis lists three categories: None, Windows, and Macintosh. The vertical axis measures the number of buyers, ranging from 0 to 400. The bar for Macintosh is the tallest at 355 buyers, followed by None at 85 buyers, and Windows at 60 buyers.
+            </p>
+        </description>
+    </image>
+
+    </figure>
+        <figure xml:id="fig-42-complex-bar-graph">
+    <caption>
+        A bar chart of the number of people playing different card games on Sunday and Wednesday.
+    </caption>
+
+    <image source="4.2-complex-bar-graph.png">
+        <shortdescription>
+            Horizontal bar chart comparing card game participation on Sunday and Wednesday across ten games, ranging from under 1,000 to over 7,000 players.
+        </shortdescription>
+
+        <description>
+            <p>
+                A horizontal bar chart comparing player counts for various card games on Sunday (represented in yellow) and Wednesday (represented in blue). The horizontal axis indicates player volume, scaled from 0 to over 7,000, while the vertical axis lists ten card games ordered by overall popularity from top to bottom.
+            </p>
+            <p>
+                Participation levels across the games are as follows:
+            </p>
+            <p>
+                Poker and Blackjack record the lowest participation, with fewer than 1,000 players each and minimal difference between days. Bridge and Gin show moderate increases, with Wednesday participation visibly exceeding Sunday's. Cribbage centers around 2,000 players per day. Hearts shows a notable contrast, with Wednesday participation (approximately 3,000 players) nearly doubling Sunday's total. Canasta and Pinochle reach mid-tier volumes, with Pinochle showing equal turnout for both days at approximately 3,500 players. Euchre and Spades draw the largest audiences by a wide margin: Euchre ranges from 5,500 on Sunday to 6,300 on Wednesday, while Spades peaks as the most played game, reaching about 6,600 players on Sunday and over 7,000 on Wednesday.
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-histogram">
+    <caption>
+        Histogram of scores on a psychology test.
+    </caption>
+
+    <image source="4.2-histogram.png">
+        <shortdescription>
+            Histogram of psychology test scores from 39.5 to 169.5 in bin intervals of 10, peaking between 79.5 and 89.5 with nearly 150 students.
+        </shortdescription>
+
+        <description>
+            <p>
+                A vertical histogram illustrating the distribution of student scores on a psychology test. The horizontal axis represents test scores divided into 10-point class intervals ranging from 39.5 to 169.5. The vertical axis measures student frequency, scaled from 0 to 150.
+            </p>
+            <p>
+                The distribution is right-skewed, rising sharply from low frequencies at the low end to a prominent peak in the middle before tapering off gradually across a long upper tail:
+            </p>
+            <p>
+                The lowest interval (39.5–49.5) contains only 2 to 3 students. Frequencies increase rapidly in subsequent bins, with approximately 12 students in the 49.5–59.5 range, 50 in 59.5–69.5, and just over 100 in 69.5–79.5. The distribution reaches its peak in the 79.5–89.5 interval at nearly 150 students. Beyond the peak, frequencies steadily decline: just over 125 students in 89.5–99.5, around 75 in 99.5–109.5, 60 in 109.5–119.5, 35 in 119.5–129.5, 15 in 129.5–139.5, and 8 in 139.5–149.5. The final two high-score intervals each contain only a single student.
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-frequency-polygon">
+    <caption>
+        Frequency polygon for the psychology test scores.
+    </caption>
+
+    <image source="4.2-frequency-polygon.png">
+        <shortdescription>
+            short description of the image
+        </shortdescription>
+
+        <description>
+            <p>
+                description of the image
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-cumulative-freq-poly">
+    <caption>
+        Cumulative frequency polygon for the psychology test scores.
+    </caption>
+
+    <image source="4.2-cumulative-freq-poly.png">
+        <shortdescription>
+            short description of the image
+        </shortdescription>
+
+        <description>
+            <p>
+                description of the image
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-overlayed-freq-poly">
+    <caption>
+         Overlaid frequency polygons.
+    </caption>
+
+    <image source="4.2-overlayed-freq-poly.png">
+        <shortdescription>
+            short description of the image
+        </shortdescription>
+
+        <description>
+            <p>
+                description of the image
+            </p>
+        </description>
+    </image>
+    </figure>
+
+        <figure xml:id="fig-42-cumulative-over-freq-poly">
+    <caption>
+        Overlaid cumulative frequency polygons.
+    </caption>
+
+    <image source="4.2-cumulative-over-freq-poly.png">
+        <shortdescription>
+            short description of the image
+        </shortdescription>
+
+        <description>
+            <p>
+                description of the image
+            </p>
+        </description>
+    </image>
+    </figure>
+    
   </section>
 
   <section xml:id="sec-the-power-of-correlation">
