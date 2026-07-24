@@ -190,6 +190,10 @@
             If the answers to several of these questions are <q>yes</q>, or even just <q>probably yes</q>, then we'd conclude that the image is likely to be a face. Conversely, if the answers to most of the questions are <q>no</q>, then the image probably isn't a face.
         </p>
 
+        <p>
+            It's also plausible that the sub-problems can be further decomposed. Suppose we're considering the question: <q>Is there an eye in the top left?</q> This can be decomposed into questions such as: <q>Is there an eyebrow?</q>; <q>Are there eyelashes?</q>; <q>Is there an iris?</q>; and so on.
+        </p>
+
         <figure xml:id="fig-hierarchical-decomposition">
             <caption>
                 Hierarchical decomposition: breaking down a complex visual problem (face detection) into progressively simpler feature checks.
@@ -231,11 +235,6 @@
                 </description>
             </image>
         </figure>
-
-
-        <p>
-            It's also plausible that the sub-problems can be further decomposed. Suppose we're considering the question: <q>Is there an eye in the top left?</q> This can be decomposed into questions such as: <q>Is there an eyebrow?</q>; <q>Are there eyelashes?</q>; <q>Is there an iris?</q>; and so on.
-        </p>
 
         <p>
             The end result is a network which breaks down a very complicated question—does this image show a face or not—into very simple questions answerable at the level of single pixels.
