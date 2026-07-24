@@ -8,9 +8,145 @@
   </introduction>
 
   <!-- include sections -->
-    <section xml:id="sec-artificial-neurons">
+  <section xml:id="sec-artificial-neurons">
     <title>Artificial Neurons</title>
-    <p>Content for the section.</p>
+
+    <introduction xml:id="intro-artificial-neurons">
+        <p>
+            The human visual system is one of the wonders of the world. Consider the following sequence of handwritten digits:
+        </p>
+
+        <figure xml:id="fig-handwritten-6-digits">
+            <caption>A sequence of six handwritten digits.</caption>
+
+            <image source="handwritten-digits.png">
+                <shortdescription>
+                    A sequence of handwritten digits showing the numbers 5, 0, 4, 1, 9, and 2.
+                </shortdescription>
+
+                <description>
+                    <p>
+                        A horizontal row displaying six handwritten numerical digits: 5, 0, 4, 1, 9, and 2. The digits vary in stroke thickness and slight slant, reflecting natural human handwriting styles.
+                    </p>
+                </description>
+            </image>
+        </figure>
+
+        <p>
+            Most people effortlessly recognize those digits as 504192. That ease is deceptive. In each hemisphere of our brain, humans have a primary visual cortex, also known as V1, containing 140 million neurons, with tens of billions of connections between them. And yet human vision involves not just V1, but an entire series of visual cortices—V2, V3, V4, and V5—doing progressively more complex image processing. We carry in our heads a supercomputer, tuned by evolution over hundreds of millions of years, and superbly adapted to understand the visual world. Recognizing handwritten digits isn't easy. Rather, we humans are astoundingly good at making sense of what our eyes show us. But nearly all that work is done unconsciously. And so we don't usually appreciate how tough a problem our visual systems solve.
+        </p>
+
+        <p>
+            The difficulty of visual pattern recognition becomes apparent if you attempt to write a computer program to recognize digits like those above. What seems easy when we do it ourselves suddenly becomes extremely difficult. Simple intuitions about how we recognize shapes – <q>a 9 has a loop at the top, and a vertical stroke in the bottom right</q> – turn out to be not so simple to express algorithmically. When you try to make such rules precise, you quickly get lost in a morass of exceptions and caveats and special cases. It seems hopeless.
+        </p>
+        
+        <figure xml:id="fig-handwritten-100-digits">
+          <caption>A grid of 100 handwritten digits.</caption>
+          <image source="handwritten-digits-100.png">
+            <shortdescription>A grid of 100 handwritten digits.</shortdescription>
+
+            <description>
+              <p>
+                A 10x10 grid displaying 100 handwritten numerical digits, each varying in style, thickness, and slant, showcasing the diversity of human handwriting.
+              </p>
+            </description>
+          </image>
+        </figure>
+
+        <p>
+            <term>Artificial neural networks</term><idx><h>artificial neural networks</h></idx> (ANNs) approach the problem in a different way. The idea is to take a large number of examples, known as training examples (as seen above), and then develop a system which can learn from those training examples. In other words, the neural network uses the examples to automatically infer rules. To understand how this works, we must look at the basic neuron models.
+        </p>
+
+        <assemblage xml:id="asm-look-closer-artificial-neurons">
+            <title>Look Closer..</title>
+            <p><em>
+                Why do we need neural networks for something as simple as recognizing numbers? Think about trying to write strict code for every possible way someone could write a loop or a curve. A person's handwriting might be slanted, cramped, or messy, completely breaking rigid programmatic rules. Neural networks bypass this by learning the flexible features of each digit straight from data, much like how humans learn to read handwriting through exposure rather than memorizing a rulebook.
+            </em></p>
+        </assemblage>
+    </introduction>
+
+    <subsection xml:id="subsec-perceptrons">
+        <title>Perceptrons</title>
+
+        <p>
+            To get started, we'll explain a type of artificial neuron called a <term>perceptron</term><idx><h>perceptron</h></idx>. Perceptrons were developed in the 1950s and 1960s by the scientist Frank Rosenblatt, inspired by earlier work by Warren McCulloch and Walter Pitts.
+        </p>
+
+        <p>
+            A way you can think about the perceptron is that it's a device that makes decisions by weighing up evidence. A perceptron takes several binary inputs and produces a single binary output (either a 0 or a 1). To determine this output, Rosenblatt introduced two key parameters:
+        </p>
+
+        <p>
+            <dl>
+                <li>
+                    <title><term>Weights</term></title>
+                    <p>
+                        Real numbers expressing the importance of the respective inputs to the output.
+                    </p>
+                </li>
+                <li>
+                    <title><term>Bias</term></title>
+                    <p>
+                        A measure of how easy it is to get the perceptron to output a 1. It replaces the concept of a rigid threshold.
+                    </p>
+                </li>
+            </dl>
+        </p>
+
+        <p>
+            These terms are further discussed in section 6.2. By varying the weights and the bias, we can get different models of decision-making. A many-layer network of perceptrons can engage in sophisticated decision-making, where a perceptron in the second layer can make a decision at a more complex and more abstract level than perceptrons in the first layer.
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-learning-problem">
+        <title>The Learning Problem</title>
+
+        <p>
+            While perceptrons are a useful model, a network of perceptrons cannot easily learn. The problem is that a small change in the weights or bias of any single perceptron in the network can sometimes cause the output of that perceptron to completely flip, say from 0 to 1.
+        </p>
+
+        <p>
+            That flip may then cause the behavior of the rest of the network to completely change in some very complicated way. That makes it difficult to see how to gradually modify the weights and biases so that the network gets closer to the desired behavior. Luckily there's a clever way of getting around this problem.
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-sigmoid-neurons">
+        <title>Sigmoid Neurons</title>
+
+        <p>
+            We can overcome this problem by introducing a new type of artificial neuron called a <term>sigmoid neuron</term><idx><h>sigmoid neuron</h></idx>. Sigmoid neurons are similar to perceptrons, but modified so that small changes in their weights and bias cause only a small change in their output. That's the crucial fact which will allow a network of sigmoid neurons to learn.
+        </p>
+
+        <p>
+            Just like a perceptron, the sigmoid neuron has inputs, weights, and a bias. But instead of being just 0 or 1, the inputs and output can take on any real numbers between 0 and 1 (for example, 0.638...).
+        </p>
+
+        <figure xml:id="fig-sigmoid-curve">
+            <caption>
+                The smooth S-shaped graph of the sigmoid activation function.
+            </caption>
+
+            <image source="sigmoid-curve.png">
+                <shortdescription>
+                    A graph plotting the smooth S-curve of a sigmoid function ranging from 0 to 1.
+                </shortdescription>
+
+                <description>
+                    <p>
+                        A Cartesian coordinate plot illustrating the sigmoid function curve. The vertical axis ranges from 0 to 1, while the horizontal axis represents inputs, demonstrating a smooth, continuous S-shape transition from 0 up to 1.
+                    </p>
+                </description>
+            </image>
+        </figure>
+
+        <p>
+            To calculate this output, the sigmoid neuron uses a specific function called the <term>sigmoid function</term><idx><h>sigmoid function</h></idx> (or logistic function). The mathematical hook of the sigmoid function is its shape when plotted on a graph: it is a smooth, S-shaped curve.
+        </p>
+
+        <p>
+            Because of this geometric smoothness, a small change in the weights or bias of a sigmoid neuron will produce a small change in the output. In fact, the output changes linearly and predictably with small modifications. This smooth responsiveness is what makes it possible for a neural network to gradually tune its parameters, learn from data, and improve its performance over time.
+        </p>
+    </subsection>
   </section>
 
   <section xml:id="sec-inputs-weights-and-biases">
