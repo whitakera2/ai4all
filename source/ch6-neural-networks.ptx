@@ -148,7 +148,7 @@
     </subsection>
   </section>
 
-  <section xml:id="sec-inputs-weights-biases">
+  <section xml:id="sec-inputs-weights-and-biases">
     <title>Inputs, Weights, and Biases</title>
 
     <introduction xml:id="intro-inputs-weights-biases">
