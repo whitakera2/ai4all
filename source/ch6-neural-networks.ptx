@@ -255,24 +255,6 @@
             As neural networks evolved, specific arrangements of layers were developed to process different types of data structures. One very important application domain of neural networks, where the methods have achieved an enormous amount of success in recent years, is signal processing. Signals might be spatial (in two-dimensional camera images or three-dimensional depth or CAT scans) or temporal (speech or music). If we know that we are addressing a signal-processing problem, we can take advantage of invariant properties of that problem.
         </p>
 
-        <figure xml:id="fig-cnn-architecture">
-            <caption>
-                A Convolutional Neural Network (CNN) applying local filters to extract spatial features across image layers.
-            </caption>
-
-            <image source="cnn-architecture.png">
-                <shortdescription>
-                    Diagram showing a 2D image grid processed by a sliding convolutional filter into feature maps.
-                </shortdescription>
-
-                <description>
-                    <p>
-                        A structural visualization of a convolutional layer. A two-dimensional input image grid is scanned by a smaller square filter window, which computes local weighted sums to generate feature maps and multi-dimensional tensors.
-                    </p>
-                </description>
-            </image>
-        </figure>
-
         <p>
             <term>Convolutional Neural Networks (CNNs)</term><idx><h>Convolutional Neural Networks</h></idx><idx><h>CNN</h></idx>: In fully connected layers, the inputs are treated as a simple, flat vertical line of neurons. In a convolutional net, it helps to think instead of the inputs as a square or two-dimensional array of pixels, whose values correspond to pixel intensities (such as three integer values encoding intensity levels in red, green, and blue color channels).
         </p>
@@ -339,6 +321,36 @@
             Another common layer type, which accomplishes this aggregation, is <term>max pooling</term><idx><h>max pooling</h></idx>. A max pooling layer operates like a filter, but has no weights. It is a pure functional layer that simply returns the maximum value in its field. As a result of applying a max pooling layer, we don’t keep track of the precise location of a pattern. This helps our filters to learn to recognize patterns independent of their location.
         </p>
 
+        <figure xml:id="fig-cnn-architecture">
+            <caption>
+                A Convolutional Neural Network (CNN) applying local filters to extract spatial features across image layers.
+            </caption>
+
+            <image source="cnn-architecture.png">
+                <shortdescription>
+                    Diagram showing a 2D image grid processed by a sliding convolutional filter into feature maps.
+                </shortdescription>
+
+                <description>
+                    <p>
+                        A structural visualization of a convolutional layer. A two-dimensional input image grid is scanned by a smaller square filter window, which computes local weighted sums to generate feature maps and multi-dimensional tensors.
+                    </p>
+                </description>
+            </image>
+        </figure>
+
+        <p>
+            <term>Recurrent Neural Networks (RNNs)</term><idx><h>Recurrent Neural Networks</h></idx><idx><h>RNN</h></idx>: While CNNs focus on spatial, grid-like data, other networks are explicitly built for temporal or sequential problems. In standard networks, there are no loops—information is always fed forward, never fed back.
+        </p>
+
+        <p>
+            There are also other models of artificial neural networks in which feedback loops are possible. These models are called recurrent neural networks.
+        </p>
+
+        <p>
+            In these models, neurons turn on for a brief moment and then go quiet. Before they shut off, they trigger neighboring neurons to fire shortly after, creating a chain reaction over time. This continuous looping effect is what allows the network to remember past information. Think of these neurons like a row of falling dominoes that loop back on themselves. One neuron fires briefly, triggers the next one a moment later, and shuts off, creating a continuous wave of activity that keeps the memory of past inputs alive in the network.
+        </p>
+
         <figure xml:id="fig-rnn-feedback-loop">
             <caption>
                 Recurrent Neural Networks (RNNs) feature feedback connections that preserve sequential memory over time.
@@ -356,18 +368,6 @@
                 </description>
             </image>
         </figure>
-
-        <p>
-            <term>Recurrent Neural Networks (RNNs)</term><idx><h>Recurrent Neural Networks</h></idx><idx><h>RNN</h></idx>: While CNNs focus on spatial, grid-like data, other networks are explicitly built for temporal or sequential problems. In standard networks, there are no loops—information is always fed forward, never fed back.
-        </p>
-
-        <p>
-            There are also other models of artificial neural networks in which feedback loops are possible. These models are called recurrent neural networks.
-        </p>
-
-        <p>
-            In these models, neurons turn on for a brief moment and then go quiet. Before they shut off, they trigger neighboring neurons to fire shortly after, creating a chain reaction over time. This continuous looping effect is what allows the network to remember past information. Think of these neurons like a row of falling dominoes that loop back on themselves. One neuron fires briefly, triggers the next one a moment later, and shuts off, creating a continuous wave of activity that keeps the memory of past inputs alive in the network.
-        </p>
     </subsection>
 
     <subsection xml:id="subsec-typical-network-architecture">
