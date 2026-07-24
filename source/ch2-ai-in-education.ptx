@@ -119,9 +119,45 @@
     </subsection>
   </section>
 
-  <section xml:id="sec-the-power-of-being-wrong">
-    <title>The Power of Being Wrong</title>
-    <p>Content for the section.</p>
+<section xml:id="sec-how-mistakes-help-you-learn">
+    <title>How Mistakes Help You Learn</title>
+
+    <p>
+        Most students dislike getting questions wrong. It can feel discouraging or even embarrassing, and many people see mistakes as evidence that they "just aren't good at" a subject. Research on learning tells a different story. One of the best ways to learn is to make an honest attempt at solving a problem before seeing the answer. When your answer is incomplete or incorrect, your brain is especially ready to learn from feedback.
+    </p>
+
+    <p>
+        When you try to answer a question, your brain actively searches for relevant knowledge and connects ideas you already know. Even if your answer is wrong, that effort prepares your brain to incorporate new information. Researchers call this a <term>desirable difficulty</term><idx>desirable difficulty</idx>: the learning process feels more challenging, but the extra effort leads to deeper understanding and better long-term retention.
+    </p>
+
+    <p>
+        This idea explains why simply reading notes or watching someone else solve problems often feels productive but results in surprisingly little learning. Recognizing information is much easier than recalling it from memory. Activities such as answering practice questions, solving problems, making predictions, or explaining concepts in your own words require you to retrieve what you know. Although these activities require more effort, they are much more effective ways to learn.
+    </p>
+
+    <p>
+        <term>Generative AI</term> gives you a powerful way to take advantage of this principle—but only if you resist the temptation to ask for the answer immediately. Before asking an AI chatbot for help, spend a few minutes working on the problem yourself. Make your best attempt, even if you are unsure. Then compare your reasoning with the AI's response. If your answer differs, ask yourself what you missed, why the AI approached the problem differently, and which explanation makes the most sense.
+    </p>
+
+    <p>
+        Ironically, the moments when you are wrong are often the moments when you learn the most. By struggling first and using AI to check and refine your thinking rather than replace it, you turn mistakes into opportunities for learning.
+    </p>
+
+        <p>
+        AI is most valuable when it helps you learn rather than simply giving you an answer. Before asking AI for help, follow these five simple steps:
+    </p>
+
+    <ol>
+        <li><em>Think.</em> Read the problem carefully and decide how you would approach it using only your own knowledge and reasoning.</li>
+        <li><em>Commit.</em> Make your best attempt first before turning to AI, even if you are unsure.</li>
+        <li><em>Ask.</em> <em>ONLY after</em>you have tried, use AI to explain, critique, or solve the problem.</li>
+        <li><em>Compare.</em> Look for differences between your reasoning and the AI's response. Ask yourself why they differ. If they differ, do not assume the AI is correct.</li>
+        <li><em>Revise.</em> Improve your understanding based on what you learned.</li>
+    </ol>
+
+    <p>
+        Be sure to resist the temptation to ask AI before you've thought. The few minutes you spend wrestling with a problem yourself are often the most valuable part of the learning process. AI is most effective not when it replaces your thinking, but when it helps you think more deeply.
+    </p>
+
   </section>
 
   <section xml:id="sec-ai-powered-study-buddy">
