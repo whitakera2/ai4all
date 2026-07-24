@@ -204,7 +204,7 @@
 
         <figure xml:id="fig-neuron-activation-process">
             <caption>
-                The step-by-step mathematical flow inside a single artificial neuron.
+                The single artificial neuron: conceptual workflow.
             </caption>
 
             <image source="neuron-activation-process.png">
@@ -214,7 +214,13 @@
 
                 <description>
                     <p>
-                        A structural flow diagram starting with multiple inputs on the left. Each input line is marked with a weight parameter. The lines converge into a summation node where the bias is added, followed by a filter node representing the activation function, which outputs a single final activation value.
+                        A flow diagram illustrates the step-by-step mathematical process inside a single artificial neuron. It starts with three distinct input values, labeled Input 1, Input 2, and Input 3. Each input is multiplied by its corresponding weight parameter, denoted as w1, w2, and w3. Text above these connections explains this action as "Multiplying inputs by weights."
+                    </p>
+                    <p>
+                        The resulting products (e.g., Input 1 * Weight 1) are channeled into a central, blue circular node representing the summing function, indicated by a large summation symbol (Σ). The text "Σ(Input × Weight)" details this operation. A separate orange block for "BIAS" adds a parameter 'b' directly into the summation node, with text explaining that the bias acts as "Adjusting the output threshold."
+                    </p>
+                    <p>
+                        An arrow carries the combined sum to an orange rectangle labeled "ACTIVATION FUNCTION." This step is described as "Applying a non-linear rule." The box includes graphical representations of common activation functions: a "Step Function" with a chart showing a sharp on/off threshold, and a "Sigmoid Function" with an S-curve chart and its corresponding formula, f(z) = 1/(1+e⁻ᶻ). A final output value, labeled "OUTPUT," emerges from the activation function node, completing the workflow.
                     </p>
                 </description>
             </image>
@@ -280,17 +286,32 @@
 
         <figure xml:id="fig-activation-functions-comparison">
             <caption>
-                Graphs comparing common activation functions: Sigmoid, ReLU, and tanh.
+                Graphs comparing common activation functions: Sigmoid, Step, ReLU, and tanh.
             </caption>
 
             <image source="activation-functions-comparison.png">
                 <shortdescription>
-                    Three line plots showing the shapes of Sigmoid, ReLU, and Hyperbolic Tangent functions.
+                    A grid of four graphs, each showing the curve and formula for a different neural network activation function: Sigmoid, ReLU, Tanh, and Step.
                 </shortdescription>
 
                 <description>
                     <p>
-                        A side-by-side graphical comparison of three mathematical curves: the smooth S-curve of the Sigmoid function bounded between 0 and 1; the sharp bent-line shape of ReLU remaining 0 for negative values and linear for positive values; and the S-curve of tanh bounded between -1 and 1.
+                        A 2x2 grid of graphs compares four common activation functions. Each graph includes a curve of the function, its name, and its mathematical formula.
+                    </p>
+                    <p>
+                        The top-left graph shows the "SIGMOID ACTIVATION FUNCTION (σ(x) = 1 / (1 + e⁻ˣ))". A blue S-shaped curve rises from near 0 at input -5 to near 1 at input 5. It passes through the y-intercept at f(0) = 0.5.
+                    </p>
+                    <p>
+                        The top-right graph shows the "ReLU ACTIVATION FUNCTION (f(x) = max(0, x))". A red line is flat at y=0 for all negative inputs (from -5 to 0) and then rises diagonally (where y=x) for all positive inputs (from 0 up to 5).
+                    </p>
+                    <p>
+                        The bottom-left graph shows the "TANH ACTIVATION FUNCTION (f(x) = (eˣ - e⁻ˣ) / (eˣ + e⁻ˣ))". A green S-shaped curve, similar to the sigmoid, is zero-centered. It rises from near -1 at input -5, passes through the origin (0, 0), and reaches near 1 at input 5.
+                    </p>
+                    <p>
+                        The bottom-right graph shows the "STEP ACTIVATION FUNCTION (f(x) = 1 if x ≥ 0; 0 if x &lt; 0)". A purple plot shows a function that is flat at y=0 for all negative inputs, jumps directly to 1 at input 0 (represented by a solid dot at (0,1) and an open dot at (0,0)), and remains flat at y=1 for all positive inputs.
+                    </p>
+                    <p>
+                        A "KEY CHARACTERISTICS" section at the bottom provides short descriptions of each function, such as "Sigmoid: Bounded 0 to 1," "ReLU: computationally efficient," "Tanh: zero-centered," and "Step: Discrete binary output."
                     </p>
                 </description>
             </image>
