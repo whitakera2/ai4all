@@ -107,12 +107,15 @@
 
     <image source="4.2-frequency-polygon.png">
         <shortdescription>
-            short description of the image
+            Frequency polygon of psychology test scores plotted at interval centers labeled 35 to 175, following the same right-skewed distribution as the histogram.
         </shortdescription>
 
         <description>
             <p>
-                description of the image
+                A line-based frequency polygon displaying the distribution of psychology test scores. The horizontal axis is labeled with score points from 35 to 175 in increments of 10, while the vertical axis represents student frequency scaled from 0 to 160.
+            </p>
+            <p>
+                The line tracks the exact same right-skewed pattern as the histogram: starting near zero at 35, rising sharply through 45, 55, and 65 to reach a peak of nearly 150 students at 85, and then steadily descending through 95, 105, and 115 before tapering off near zero between 145 and 175.
             </p>
         </description>
     </image>
@@ -125,12 +128,18 @@
 
     <image source="4.2-cumulative-freq-poly.png">
         <shortdescription>
-            short description of the image
+            Cumulative frequency polygon of psychology test scores from 35 to 165, accumulating to a total frequency near 650 on a Y-axis scaled to 700.
         </shortdescription>
 
         <description>
+           <p>
+                A line graph displaying the cumulative frequency distribution of psychology test scores. The horizontal axis lists test scores labeled from 35 to 165, while the vertical axis represents total accumulated student frequency marked in increments of 100 up to 700.
+            </p>
             <p>
-                description of the image
+                The line forms a characteristic S-shaped cumulative curve that continually rises from left to right as scores increase:
+            </p>
+            <p>
+                Starting near zero at a score of 35, the curve stays below the 100-mark through scores 45, 55, and 65. It then climbs steeply through the most common score range, crossing above 150 near score 75, passing 300 by score 85, and hitting 450 around 95. Above 95, the upward trajectory slows down as it crosses 500, steadily flattening out as it approaches its total count of just over 600 near score 165.
             </p>
         </description>
     </image>
@@ -143,12 +152,21 @@
 
     <image source="4.2-overlayed-freq-poly.png">
         <shortdescription>
-            short description of the image
+            Overlayed frequency polygons comparing response times in milliseconds for large targets (blue) and small targets (red), showing faster completion times for large targets.
         </shortdescription>
 
         <description>
+           <p>
+                An overlayed line graph comparing movement time distributions (in milliseconds) for two different target sizes: a large target (represented by a blue line) and a small target (represented by a red line). The horizontal axis measures time in milliseconds from 350 to 1150 in 100-msec intervals, while the vertical axis measures frequency from 0 to 10 in increments of 2.5.
+            </p>
             <p>
-                description of the image
+                The two distributions highlight a clear difference in performance time depending on target size:
+            </p>
+            <p>
+                The blue curve for the large target sits further to the left, indicating faster movement times. It begins at 0 at 350 msec, rises rapidly to a peak frequency of 10 at 550 msec, and drops back to 0 by 750 msec. 
+            </p>
+            <p>
+                In contrast, the red curve for the small target is shifted further to the right, showing longer movement times. It remains at 0 through 450 msec, rises to a peak around 650 msec, and maintains moderate frequencies between 650 and 850 msec before tapering off and reaching zero near 1150 msec.
             </p>
         </description>
     </image>
@@ -161,12 +179,18 @@
 
     <image source="4.2-cumulative-over-freq-poly.png">
         <shortdescription>
-            short description of the image
+            Overlayed cumulative frequency polygons comparing response times in milliseconds for large targets (blue) and small targets (red), both accumulating to 20 total trials.
         </shortdescription>
 
         <description>
+           <p>
+                An overlayed line graph showing the cumulative frequency distributions of movement times (in milliseconds) for large targets (blue line) and small targets (red line). The horizontal axis measures response time in milliseconds from 350 to 1150, while the vertical axis measures total accumulated trials from 0 to 20.
+            </p>
             <p>
-                description of the image
+                Both curves form S-shaped cumulative patterns, but their horizontal placement highlights the speed advantage for larger targets:
+            </p>
+            <p>
+                The blue curve for the large target ascends steeply between 350 and 650 msec, reaching its total of 20 trials much earlier. In contrast, the red curve for the small target is shifted to the right, beginning its rise around 550 msec and climbing more gradually until reaching 20 trials near 1050 msec.
             </p>
         </description>
     </image>
